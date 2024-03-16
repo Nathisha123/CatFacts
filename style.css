@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: linear-gradient(298deg, rgba(43, 43, 43, 0.04) 0%, rgba(43, 43, 43, 0.04) 74%,rgba(200, 200, 200, 0.04) 74%, rgba(200, 200, 200, 0.04) 100%),linear-gradient(346deg, rgba(237, 237, 237, 0.04) 0%, rgba(237, 237, 237, 0.04) 54%,rgba(150, 150, 150, 0.04) 54%, rgba(150, 150, 150, 0.04) 100%),linear-gradient(280deg, rgba(197, 197, 197, 0.04) 0%, rgba(197, 197, 197, 0.04) 64%,rgba(25, 25, 25, 0.04) 64%, rgba(25, 25, 25, 0.04) 100%),linear-gradient(285deg, rgba(74, 74, 74, 0.04) 0%, rgba(74, 74, 74, 0.04) 57%,rgba(244, 244, 244, 0.04) 57%, rgba(244, 244, 244, 0.04) 100%),linear-gradient(90deg, rgb(68, 148, 8),rgb(157, 199, 49));
+    font-family: "Poppins", sans-serif;
+   
+
+    
+    
+    
+}
+
+.text-center
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    flex-direction:row;
+    margin-top: 10vh;
+    padding: 70px;
+    
+   
+    
+
+
+   
+}    
+
+.card
+{
+    
+    width:300px;
+    border:1px solid black;
+    padding:20px;
+    margin-left:20px;
+    
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    
+
+}
+
+.col
+{
+   display: flex; 
+   flex-direction: column;
+}
+
+.card-header
+{
+    width:200px;
+    border: 1px solid black;
+    margin:25px;
+    padding:10px;
+    background-image: radial-gradient(circle at 23% 61%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 34% 3%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 10% 76%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 20% 80%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 48% 51%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 69% 29%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 34% 68%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 22% 7%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 15% 88%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 14% 20%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),linear-gradient(135deg, rgb(212, 14, 0),rgb(235, 212, 64));;
+   
+
+}
+
+.card-img
+{
+    
+    border:1px solid black;
+    display: inline-block;
+    height:10vh ;
+    width:80%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.card-header
+{
+    text-align: center;
+    
+}
+.card-body
+{
+    padding: 20px;
+    
+    
+}
